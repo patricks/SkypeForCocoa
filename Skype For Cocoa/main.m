@@ -24,6 +24,9 @@ int main (int argc, const char * argv[])
         } else if(strcmp(argv[1],"online") == 0) {
             [skypeController sendSkypeMessage:@"set userstatus online"];
             return 0;
+        } else if(strcmp(argv[1],"offline") == 0) {
+            [skypeController sendSkypeMessage:@"set userstatus offline"];
+            return 0;
         } else {
             [skypeController readCommandsAsyncFromFileHandle:inputStream];
         }

@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		85047DC613CA5FB000EAB9A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		8505DE8413C918E50072BA77 /* Skype For Cocoa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Skype For Cocoa"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8505DE8413C918E50072BA77 /* Skype_For_Cocoa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Skype_For_Cocoa; sourceTree = BUILT_PRODUCTS_DIR; };
 		8505DE8813C918E50072BA77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8505DE8B13C918E50072BA77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8505DE8E13C918E50072BA77 /* Skype For Cocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skype For Cocoa-Prefix.pch"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		8505DE8513C918E50072BA77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8505DE8413C918E50072BA77 /* Skype For Cocoa */,
+				8505DE8413C918E50072BA77 /* Skype_For_Cocoa */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			);
 			name = "Skype For Cocoa";
 			productName = "Skype For Cocoa";
-			productReference = 8505DE8413C918E50072BA77 /* Skype For Cocoa */;
+			productReference = 8505DE8413C918E50072BA77 /* Skype_For_Cocoa */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Skype For Cocoa/Skype For Cocoa-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Skype_For_Cocoa;
 			};
 			name = Debug;
 		};
@@ -213,7 +213,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Skype For Cocoa/Skype For Cocoa-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Skype_For_Cocoa;
 			};
 			name = Release;
 		};
